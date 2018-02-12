@@ -1,0 +1,4 @@
+.idea/
+db.php
+*config.json
+/ssl

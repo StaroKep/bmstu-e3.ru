@@ -1,0 +1,79 @@
+.links-list{
+	background-color: rgb(0,0,0);
+	overflow: auto;
+}
+.links-list a{
+	display: block;
+	text-decoration: none;
+}
+.links-list-el{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.lle-background-image{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transition: .3s;
+}
+.links-list a:hover .lle-background-image{
+	transform: scale(1.025);
+}
+.lle-wall{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: rgba(0,0,0,0.2);
+}
+.lle-text{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	transition: .3s;
+}
+.links-list a:hover .lle-text{
+	transform: scale(1.1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+
+
+#bmstu-site{
+	background-image: url(/assets/images/jpg/other-links/bmstu-site.jpg);
+	background-color: rgb(180,174,165);
+}
+#energo-site{
+	background-image: url(/assets/images/jpg/other-links/energo-site.jpg);
+}
+#e3-vk{
+	background-image: url(/assets/images/jpg/other-links/e3-vk.jpg);
+	background-color: rgb(19,26,34);
+}
+#bmstu-vk{
+	background-image: url(/assets/images/jpg/other-links/bmstu-vk.jpg);
+}
+#studsovet-vk{
+	background-image: url(/assets/images/jpg/other-links/studsovet-vk.jpg);
+}
+#profkom-e3{
+	background-image: url(/assets/images/jpg/other-links/profkom-e3.jpg);
+}
+#energo-vk{
+	background-image: url(/assets/images/jpg/other-links/energo-vk.jpg);
+}
+#o10-vk{
+	background-image: url(/assets/images/jpg/other-links/o10-vk.jpg);
+}

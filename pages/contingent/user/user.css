@@ -1,0 +1,177 @@
+.area1{
+	width: 100%;
+	height: 600px;
+	background-image: url(/assets/images/jpg/turbine_1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.area1 .area1-wall{
+	width: 100%;
+	height: 600px;
+	background-color: rgba(20,31,52,0.4);
+}
+
+.area1 .area1-wall .menu{
+	overflow: auto;
+}
+.area1 .area1-wall .menu a{
+	color: white;
+	outline: none;
+}
+.area1 .area1-wall .menu-el{
+	padding: 25px;
+	font-size: 18px;
+}
+.area1 .area1-wall .menu-el-left{
+	float: left;
+}
+.area1 .area1-wall .menu-el-right{
+	float: right;
+}
+
+.area1 .area1-wall .bmstu-logo{
+	width: 250px;
+	height: 300px;
+	margin: auto;
+	background-image: url(/assets/images/png/bmstu-min.png); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.area1 .area1-wall .text-under-bmstu-logo{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin: 30px 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.area1 .area1-wall .page-content-area{
+	width: 900px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	background-color: white;
+	margin: 0px auto 50px auto;
+	position: relative;
+}
+
+.area1 .area1-wall .page-content-area .user-bgimage{
+	width: 100%;
+	height: 370px;
+	background-image: url(/assets/images/jpg/turbine_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall{
+	width: 100%;
+	height: 370px;
+	background-color: rgba(20,31,52,0.4);
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall a{
+	color: white;
+	text-decoration: none;
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .edit-personal-info, .area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .write-new-article, .area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .student-google-drive, .area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .back-personal-page{
+	font-size: 26px;
+	position: absolute;
+	border: 2px solid white;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 25px;
+	cursor: pointer;
+	top: 20px;
+	right: 20px;
+	transition: 0.15s;
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .back-personal-page:hover{
+	transform: scale(1.2);
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .edit-personal-info:hover{
+	transform: scale(1.2);
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .write-new-article{
+	top: 90px !important;
+}  
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .write-new-article:hover{
+	transform: scale(1.2);
+}  
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .student-google-drive{
+	top: 160px !important;
+}
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .student-google-drive:hover{
+	transform: scale(1.2);
+}  
+
+.area1 .area1-wall .page-content-area .btn-submit-save-changes{
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: Ubuntu;
+	text-align: center; width: 100%;
+	padding: 20px;
+	background-color: white;
+	outline: none;
+}
+
+.area1 .area1-wall .page-content-area .user-bgimage .user-bgimage-wall .user-name{
+	font-size: 26px;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+.area1 .area1-wall .page-content-area .table-with-user-data{
+	width: 100%;
+	position: relative;
+	color: rgb(40,40,40);
+	border: none;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data td{
+	padding: 10px 20px;
+	vertical-align: top;
+	text-align: justify;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data td a{
+	text-decoration: none;
+	color: rgb(0, 120, 200);
+	transition: .3s;
+	transition-property: color;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data td a:hover{
+	color: rgb(0, 80, 125);
+}
+.area1 .area1-wall .page-content-area .table-with-user-data input{
+	width: 650px;
+	font-size: 16px;
+	border: none;
+	color: rgb(150,150,150);
+	outline: none;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data textarea{
+	width: 650px;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data .nicEdit-main{
+	outline: none;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data .td-first{
+	padding: 25px 20px 10px 20px !important;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data .td1{
+	width: 250px;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data .td2{
+	width: 650px;
+}
+.area1 .area1-wall .page-content-area .table-with-user-data .td-last{
+	padding: 10px 20px 25px 20px !important;
+}

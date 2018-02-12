@@ -1,0 +1,221 @@
+.home-page-area{
+	width: 100%;
+}
+
+.news-area{
+	width: 900px;
+	max-height: 600px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin: 50px auto 30px auto;
+	position: relative;
+}
+
+.news-area .left-border, .news-area .right-border{
+	position: absolute;
+	width: 25px;
+	height: 100%;
+	max-height: 600px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.news-area .left-border{
+	left: 0px;
+}
+.news-area .right-border{
+	right: 0px;
+}
+
+.news-el{
+	padding: 0 0 10px 0;
+	margin: 0 0 0px 0;
+	/*border-bottom: 1px dotted rgb(40,40,40);*/
+}
+.news-title{
+	font-size: 18px;
+	/*font-family: UbuntuMedium;*/
+}
+.news-author-date{
+	text-align: right;
+}
+
+.center-news-title{
+	width: 900px;
+	position: absolute;
+	font-size: 24px;
+	text-align: center;
+	top: -14px;
+}
+
+.center-news-title a{
+	color: black;
+	text-decoration: none;
+}
+
+.news-area .news{
+	width: 100%;
+	max-height: 600px;
+	padding: 40px;
+}
+
+.news-area .news a{
+	color: black;
+	text-decoration: none;
+}
+
+.news-area .news .news-el{
+	width: 100%;
+	height: 52px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.news-area .news .news-el .news-title{
+	font-size: 20px !important;
+}
+.news-area .news .news-el .news-author-date{
+	color: rgb(100,100,100);
+	font-size: 14px;
+	padding: 0;
+	text-align: right;
+}
+
+.study-process{
+	width: 900px;
+	border-top: 1px solid black;
+	margin: 55px auto 20px auto;
+}
+.study-process-title{
+	font-size: 24px;
+	margin: 0 auto 0px auto;
+	position: relative;
+	top: -15px;
+	text-align: center;
+
+}
+.study-process-title span{
+	background-color: white;
+	padding: 0px 20px;
+}
+.study-process-title span a{
+	color: black;
+	text-decoration: none;
+}
+.sp-week-points{
+	overflow: auto;
+	margin: auto;
+	width: 850px;
+}
+.spw-point{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin: 15px;
+	border: 1px solid rgb(80,99,127);
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	padding: 2px 0;
+}
+.spw-point-end{
+	background-color: rgb(80,99,127);
+	color: white;
+}
+
+@keyframes flashing {
+    0%  {background-color: rgb(255,255,255);}
+    50%  {background-color: rgb(80,99,127);}
+    100% {background-color: rgb(255,255,255);}
+}
+.spw-point-current{
+	border: 2px solid rgb(80,99,127);
+	padding: 1px 0;
+    animation-name: flashing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: rgb(255,255,255);
+}
+
+
+.sp-week, .sp-about-session-title{
+	font-size: 19px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.sp-about-session{
+	background-image: url(/assets/images/jpg/study-process/Spring2017.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 150px;
+}
+
+.study-process-content a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/* Расписание */
+.Dynamic-Calendar{
+	margin: 10px auto 50px auto;
+	overflow: auto;
+	display: none;
+	/*height: 316px;*/
+}
+.Dynamic-Calendar::-webkit-scrollbar{
+    /*width: 0px;*/
+}
+.Dynamic-Calendar .daily-schedule-table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	margin: 0px auto;
+}
+.Dynamic-Calendar .daily-schedule-table td{
+	vertical-align: top;
+	border: 1px solid rgb(230,230,230);
+	padding: 8px;
+}
+.Dynamic-Calendar .daily-schedule-table .text-nowrap{
+	vertical-align: middle;
+}
+.Dynamic-Calendar .daily-schedule-table .day-name{
+	border-top: none;
+	width: 50px !important;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(255,255,255);
+	background-color: rgb(80,99,127);
+}
+.Dynamic-Calendar .daily-schedule-table .first-day-name{
+	border-top: 1px solid rgb(230,230,230);
+}
+.Dynamic-Calendar .daily-schedule-table .text-success{
+	/*background-color: rgb(247,202,171);*/
+}
+.Dynamic-Calendar .daily-schedule-table .text-info{
+	/*background-color: rgb(190,211,237);*/
+}
+
+.group-selector{
+	width: 850px;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.group-selector .group{
+	width: 64px;
+	height: 64px;
+	border-radius: 50px;
+	margin: 10px calc(338px / 16);
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	border: 1px solid rgb(80,99,127);
+	line-height: 62px;
+}

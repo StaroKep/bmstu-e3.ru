@@ -1,0 +1,136 @@
+.header .header-wall .page-content{
+	width: 860px;
+	height: 1980px;
+	margin: 0 auto 50px auto;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	background-color: white;
+	padding: 30px
+}
+
+.header .header-wall .page-content .tutor-link{
+	color: rgb(40,40,40);
+	text-decoration: none;
+}
+
+.tutor-area{
+	width: 200px;
+	height: 240px;
+	padding: 20px;
+	float: left;
+	transition: 0.2s;
+}
+
+.tutor-area:hover{
+	transform: scale(1.15);
+}
+
+.tutor-area .tutor-photo{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tutor-area .tutor-name{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 17px;
+}
+
+.tutor-area .no-tutors-photo{
+	background-image: url(/assets/images/jpg/tutors-photo/NoPhoto.jpg);
+}
+.tutor-area .ArbekovAN{
+	background-image: url(/assets/images/jpg/tutors-photo/ArbekovAN.jpg);
+}
+.tutor-area .ArhipovDV{
+	background-image: url(/assets/images/jpg/tutors-photo/ArhipovDV.jpg);
+}
+.tutor-area .BurcevSA{
+	background-image: url(/assets/images/jpg/tutors-photo/BurcevSA.jpg);
+}
+.tutor-area .VaraksinAY{
+	background-image: url(/assets/images/jpg/tutors-photo/VaraksinAY.jpg);
+}
+.tutor-area .GasilovAV{
+	background-image: url(/assets/images/jpg/tutors-photo/GasilovAV.jpg);
+}
+.tutor-area .SchegolevNL{
+	background-image: url(/assets/images/jpg/tutors-photo/SchegolevNL.jpg);
+}
+.tutor-area .KunikeevBA{
+	background-image: url(/assets/images/jpg/tutors-photo/KunikeevBA.jpg);
+}
+.tutor-area .VedeshkinGK{
+	background-image: url(/assets/images/jpg/tutors-photo/VedeshkinGK.jpg);
+}
+.tutor-area .NovickiyBB{
+	background-image: url(/assets/images/jpg/tutors-photo/NovickiyBB.jpg);
+}
+.tutor-area .NozhnickiYA{
+	background-image: url(/assets/images/jpg/tutors-photo/NozhnickiYA.jpg);
+}
+.tutor-area .ZamolodchikovGI{
+	background-image: url(/assets/images/jpg/tutors-photo/ZamolodchikovGI.jpg);
+}
+.tutor-area .IvanovVL{
+	background-image: url(/assets/images/jpg/tutors-photo/IvanovVL.jpg);
+}
+.tutor-area .TumashevRZ{
+	background-image: url(/assets/images/jpg/tutors-photo/TumashevRZ.jpg);
+}
+.tutor-area .EzrohiYA{
+	background-image: url(/assets/images/jpg/tutors-photo/EzrohiYA.jpg);
+}
+.tutor-area .KiselevNA{
+	background-image: url(/assets/images/jpg/tutors-photo/KiselevNA.jpg);
+}
+.tutor-area .KochurovDS{
+	background-image: url(/assets/images/jpg/tutors-photo/KochurovDS.jpg);
+}
+.tutor-area .LoktionovEY{
+	background-image: url(/assets/images/jpg/tutors-photo/LoktionovEY.jpg);
+}
+/* Осталось добавить в БД*/
+.tutor-area .MolchanovAA{
+	background-image: url(/assets/images/jpg/tutors-photo/MolchanovAA.jpg);
+}
+.tutor-area .ProtasovYY{
+	background-image: url(/assets/images/jpg/tutors-photo/ProtasovYY.jpg);
+}
+.tutor-area .ShadrinDV{
+	background-image: url(/assets/images/jpg/tutors-photo/ShadrinDV.jpg);
+}
+.tutor-area .SamoylovMY{
+	background-image: url(/assets/images/jpg/tutors-photo/SamoylovMY.jpg);
+}
+.tutor-area .SyrovcevIG{
+	background-image: url(/assets/images/jpg/tutors-photo/SyrovcevIG.jpg);
+}
+.tutor-area .ManushinEA{
+	background-image: url(/assets/images/jpg/tutors-photo/ManushinEA.jpg);
+}
+.tutor-area .TroickiyNI{
+	background-image: url(/assets/images/jpg/tutors-photo/TroickiyNI.jpg);
+}
+.tutor-area .LeontievAI{
+	background-image: url(/assets/images/jpg/tutors-photo/LeontievAI.jpg);
+}
+.tutor-area .MolyakovVD{
+	background-image: url(/assets/images/jpg/tutors-photo/MolyakovVD.jpg);
+}
+.tutor-area .HarkovskySV{
+	background-image: url(/assets/images/jpg/tutors-photo/HarkovskySV.jpg);
+}
+.tutor-area .VasilevBE{
+	background-image: url(/assets/images/jpg/tutors-photo/VasilevBE.jpg);
+}
+.tutor-area .VasilevNV{
+	background-image: url(/assets/images/jpg/tutors-photo/VasilevNV.jpg);
+}
+.tutor-area .PolevAS{
+	background-image: url(/assets/images/jpg/tutors-photo/PolevAS.jpg);
+}

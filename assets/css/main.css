@@ -1,0 +1,292 @@
+/* Качаем шрифты ubuntu */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
+
+*{
+	font-family: Ubuntu;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+/* Стили скрола */
+*::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(50,50,50); 
+}
+*::-webkit-scrollbar-thumb{
+    background-color: rgb(30,30,30); 
+}
+
+/* Стили меню сайта */
+
+.header-area{
+	width: 100%;
+	height: 520px;
+	background-image: url(/assets/images/jpg/gif-to-jpg/turbine_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20,31,52,0.4);
+	background-image: none;
+	transition: .3s;
+	transition-property: background-color;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.top-menu{
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 18px;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,0);
+	transition: .5s;
+	transition-property: border-color;
+}
+
+.top-menu .menu-el{
+	float: left;
+	padding: 25px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 0.5s;
+}
+
+.right-menu-el{
+	float: right !important;
+}
+
+.logo-and-department .bmstu-logo{
+	height: 300px;
+	width: 250px;
+	margin: auto;
+	background-size: cover;
+	background-image: url(/assets/images/png/bmstu-min.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	transition: .5s;
+	transition-property: opacity;
+}
+.logo-and-department .bmstu-logo a{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+.logo-and-department .energo-name{
+	margin-top: 25px;
+}
+.logo-and-department .energo-name, .logo-and-department .e3-name{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.6;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	transition: .5s;
+	transition-property: opacity;
+}
+
+/* FULL MENU */
+#start-full-menu{
+	border-radius: 0px;
+	position: relative;
+	color: white !important;
+	cursor: pointer !important;
+	font-size: 17px;
+}
+.full-menu-area{
+	width: 100%;
+	display: none;
+	opacity: 0;
+	transition: .5s;
+	transition-property: opacity;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 18px;
+	position: relative;
+	height: 448px;
+}
+#menu-schedule-time{
+	float: right;
+}
+@media screen and (max-width: 1100px) {
+	.full-menu-area{
+		height: 458px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.full-menu-area{
+		height: 462px;
+	}
+}
+@media screen and (max-width: 979px) {
+	.full-menu-area{
+		height: 464px;
+	}
+}
+
+/* NEW FULL MENU */
+.full-menu-area{
+	font-size: 0px;
+}
+.full-menu-area .right-site-settings{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.full-menu-area .right-site-settings .on-off-el{
+	width: 70px;
+	height: 70px;
+	margin: 20px;
+	border-radius: 35px;
+	border: 1px solid rgba(255,255,255,0.1);
+	line-height: 68px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.full-menu-area .first-line-full-menu{
+	width: 100%;
+}
+.full-menu-area .first-line-full-menu a, .full-menu-area .bottom-line-full-menu a{
+	display: inline-block;
+	padding: 25px;
+	font-size: 17px;
+}
+.full-menu-area .bottom-line-full-menu{
+	width: 100%;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+@media screen and (max-width: 1060px) {
+	.full-menu-area .bottom-line-full-menu a{
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.full-menu-area .bottom-line-full-menu a{
+		padding: 18px;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 950px) {
+	#menu-schedule-time{
+		display: none;
+	}
+}
+
+/* Стили подвала сайта */
+.footer-area{
+	width: 100%;
+	background-image: url(/assets/images/jpg/gif-to-jpg/turbine_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.footer-area a{
+	color: white;
+	text-decoration: none;
+}
+.footer-area .footer{
+	background-color: rgba(20,31,52,0.4);
+}
+.footer-area .footer-first{
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	padding: 20px;
+	height: 240px;
+	overflow: auto;
+}
+.footer-first .bmstu-logo-text{
+	float: left;
+	margin: 0px 25px;
+	line-height: 1.8;
+}
+.contacts{
+	float: right;
+	width: 400px;
+	line-height: 1.8;
+	margin-right: 20px;
+}
+.contacts table .td1{
+	width: 95px;
+}
+.footer-first .footer-bmstu-logo{
+	height: 200px;
+	width: 160px;
+	float: left;
+	margin-left: 25px;
+	background-size: 100%;
+	background-image: url(/assets/images/png/bmstu-min.png);
+	background-repeat: no-repeat;
+}
+/* // Стили подвала сайта // */
+
+@media screen and (max-width: 1100px) {
+	.menu .menu-el, .top-menu .menu-el{
+		padding: 20px !important;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.menu .menu-el, .top-menu .menu-el{
+		padding: 18px !important;
+	}
+}
+@media screen and (max-width: 979px) {
+	.top-menu .menu-el{
+		font-size: 16px;
+	}
+}
+
+
+/* Типовые стили страниц */
+.page-content{
+	width: 860px;
+	margin: 0px auto 50px auto;
+	background-color: white;
+	padding: 30px;
+	line-height: 1.5;
+	font-size: 17px;
+}
+.page-content a{
+	color: rgb(40,40,40);
+	text-decoration: none;
+}
+	
+
+.full-news-page .news-el{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted;
+	transition: .3s;
+	transition-property: border-color color;
+	border-color: rgb(40,40,40);
+	font-size: 19px;
+}
+.full-news-page .news-el:hover{
+	color: rgb(80,99,127);
+	border-color: rgb(80,99,127);
+}
+.full-news-page .news-el .news-author-date{
+	font-size: 15px;
+	color: rgb(100,100,100);
+}
